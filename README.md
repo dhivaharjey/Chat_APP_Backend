@@ -1,3 +1,14 @@
+# Real Tim Chat APP
+## SingUp and SingIn
+[SignUp and SignIn](https://github.com/user-attachments/assets/6e8877cf-f073-40b2-b229-519bb7cc9645)
+
+## Working of App
+[Working of App](https://github.com/user-attachments/assets/a41d963a-e56c-4ec3-b060-40f5a682b0b5)
+
+## Session Expires
+[Session Expires](https://github.com/user-attachments/assets/68424e26-a886-48dc-bc2c-a92de1ece824)
+
+
 ## NodeJs
 
 ---
