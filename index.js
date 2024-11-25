@@ -16,7 +16,7 @@ const app = express();
 const url = process.env.CLIENT_URL;
 app.use(
   cors({
-    origin: url,
+    origin: "*",
     methods: ["GET", "HEAD", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
@@ -47,7 +47,7 @@ server.listen(port, (req, res) => {
 const io = new Server(server, {
   pingTimeout: 60000,
   cors: {
-    origin: url,
+    origin: "*",
   },
 });
 io.on("connection", (socket) => {
